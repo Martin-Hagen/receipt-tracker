@@ -1,0 +1,26 @@
+# 환경 설정
+.env
+.env.local
+.env.production
+
+# MCP 설정 (API 키 포함)
+.mcp.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# 업로드 임시 파일
+backend/uploads/
+
+# 프론트엔드
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
